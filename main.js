@@ -19,7 +19,7 @@ function add_item() {
     menularray.sort()
     htmldata="<section class='cards'>"
     for (var i = 0; i < menularray.length; i++) {
-        htmldata=htmldata+'<div class="card">' + '<img src="images/pizzaImg.png"/>' + menularray[i] + '</div>'
+        htmldata=htmldata+'<div class="card">' + '<img src="pizzaImg.png">' + menularray[i] + '</div>'
         
     }
     htmldata=htmldata+"</section>"
